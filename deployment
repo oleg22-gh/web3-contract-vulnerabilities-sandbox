@@ -1,0 +1,7 @@
+0x5FbDB2315678afecb367f032d93F642f64180aa3
+
+attack - 0xDAC83eD110223aEfC66942C634026Fadb9da8443
+
+cast send 0xDAC83eD110223aEfC66942C634026Fadb9da8443 "attack(uint256,uint256)" 1000000000000000000 50 \
+  --rpc-url http://127.0.0.1:8545 \
+  --private-key <MY_PK>
